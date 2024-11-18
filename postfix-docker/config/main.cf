@@ -1,0 +1,13 @@
+myhostname = localhost
+mydomain = localdomain
+myorigin = $mydomain
+inet_interfaces = all
+inet_protocols = ipv4
+mydestination = $myhostname, localhost.$mydomain, localhost
+relayhost = 
+#home_mailbox = Maildir/
+maillog_file = /var/log/mail.log
+
+
+
+
