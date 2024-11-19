@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  postfix:
+    build: .
+    container_name: postfix-local
+    ports:
+      - "1025:25"  # Map SMTP port to avoid conflicts
+    volumes:
+      - ./mail:/var/mail  # Store mail locally
+    restart: unless-stopped

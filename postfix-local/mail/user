@@ -1,0 +1,45 @@
+From root@db718671be3c.localdomain  Tue Nov 19 07:26:08 2024
+Return-Path: <root@db718671be3c.localdomain>
+X-Original-To: user@localhost
+Delivered-To: user@localhost.localdomain
+Received: by localhost (Postfix, from userid 0)
+	id DE52B6C7549; Tue, 19 Nov 2024 07:26:08 +0000 (UTC)
+Subject: Test Subject
+To: <user@localhost.localdomain>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Tue, 19 Nov 2024 07:26:08 +0000
+Message-Id: <20241119072608.DE52B6C7549@localhost>
+From: root <root@db718671be3c.localdomain>
+
+This is a test email
+
+From root@db718671be3c.localdomain  Tue Nov 19 07:27:41 2024
+Return-Path: <root@db718671be3c.localdomain>
+X-Original-To: user@localhost
+Delivered-To: user@localhost.localdomain
+Received: by localhost (Postfix, from userid 0)
+	id 1A4B56C7549; Tue, 19 Nov 2024 07:27:41 +0000 (UTC)
+Subject: Test Subject2
+To: <user@localhost.localdomain>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Tue, 19 Nov 2024 07:27:41 +0000
+Message-Id: <20241119072741.1A4B56C7549@localhost>
+From: root <root@db718671be3c.localdomain>
+
+This is a test email
+
+From root@db718671be3c.gnostic.cloud  Tue Nov 19 07:39:35 2024
+Return-Path: <root@db718671be3c.gnostic.cloud>
+X-Original-To: user
+Delivered-To: user@gnostic.cloud
+Received: by mail.gnostic.cloud (Postfix, from userid 0)
+	id 97BE16C7549; Tue, 19 Nov 2024 07:39:35 +0000 (UTC)
+Subject: Test Subject3
+To: user@gnostic.cloud
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Tue, 19 Nov 2024 07:39:35 +0000
+Message-Id: <20241119073935.97BE16C7549@mail.gnostic.cloud>
+From: root <root@db718671be3c.gnostic.cloud>
+
+This is a test email
+
