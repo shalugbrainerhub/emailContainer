@@ -4,7 +4,8 @@ services:
     build: .
     container_name: postfix-local
     ports:
-      - "1025:25"  # Map SMTP port to avoid conflicts
+      - "1025:25"  
     volumes:
-      - ./mail:/var/mail  # Store mail locally
+      - ./mail:/var/mail  
+      - ./logs:/var/log
     restart: unless-stopped

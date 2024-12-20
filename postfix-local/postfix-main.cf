@@ -1,10 +1,6 @@
-# General settings
-myhostname = localhost
-mydomain = localdomain
-myorigin = $myhostname
 inet_interfaces = all
 inet_protocols = ipv4
-mydestination = $myhostname, localhost.localdomain, localhost
+myorigin = $myhostname
 relayhost =
 mynetworks = 127.0.0.0/8
 home_mailbox = Maildir/
